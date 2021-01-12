@@ -19,7 +19,7 @@ public class TestController {
     private DiscoveryClient discoveryClient;
 
     /**
-     * @description 获取服务实例列表
+     * @descript ion 获取服务实例列表
      * @author lp
      * @since 2021/1/12 17:50
      **/
@@ -41,6 +41,7 @@ public class TestController {
             URLConnection co =  url.openConnection();
             co.connect();
             System.out.println("连接可用");
+
         } catch (Exception e1) {
 
             System.out.println("连接打不开!");
