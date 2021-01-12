@@ -19,11 +19,14 @@
     </properties>
 
     <dependencies>
+
+        <!--1.web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--2.test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -36,7 +39,7 @@
             </exclusions>
         </dependency>
 
-        <!--引入nacos client依赖-->
+        <!--3.引入nacos client依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>

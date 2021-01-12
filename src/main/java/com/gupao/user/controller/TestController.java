@@ -18,6 +18,11 @@ public class TestController {
     @Resource
     private DiscoveryClient discoveryClient;
 
+    /**
+     * @description 获取服务实例列表
+     * @author lp
+     * @since 2021/1/12 17:50
+     **/
     @RequestMapping("/test")
     public List<ServiceInstance> findServiceInstance(){
         //查询指定服务名称下的所有实例的信息
@@ -38,8 +43,7 @@ public class TestController {
             System.out.println("连接可用");
         } catch (Exception e1) {
 
-            url = null;
-            System.out.println("连接打不开!"+url);
+            System.out.println("连接打不开!");
         }
     }
 }
