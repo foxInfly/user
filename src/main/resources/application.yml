@@ -2,7 +2,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        #指定nacos server的地址
+        #鎸囧畾nacos server鐨勫湴鍧�
         server-addr: 39.100.39.63:8848
   application:
     name: user
